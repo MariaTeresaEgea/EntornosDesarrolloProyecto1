@@ -1,4 +1,15 @@
-package Pajarería;
+package com.mariateresa.pajareria;
+/*
+** Se trata de un gestor para una pajarería, se puede incluir clientes, productos y ventas y gestionar tanto stock como ventas.
+** Se proporcionan métodos para la gestión de la tienda
+
+@author María Teresa Egea Valera
+@version 1.0
+@since 2025-20-06
+*/
+
+import com.mariateresa.pajareria.Cliente;
+import com.mariateresa.pajareria.Pajaro;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class Ventas {//atributos de la clase

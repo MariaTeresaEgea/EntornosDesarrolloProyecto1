@@ -1,4 +1,4 @@
-package Pajarería;
+package com.mariateresa.pajareria;
 import java.util.ArrayList;
         import java.util.Scanner;
 
