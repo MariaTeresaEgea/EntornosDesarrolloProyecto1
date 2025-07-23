@@ -1,0 +1,33 @@
+# Archivos de compilación de Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+target/ # Para Maven
+build/  # Para Gradle
+
+# Archivos de IDEs
+.idea/          # IntelliJ IDEA
+.vscode/        # VS Code
+*.iml           # IntelliJ IDEA module files
+.project        # Eclipse
+.classpath      # Eclipse
+.settings/      # Eclipse
+*.swp           # Vim swap files
+
+# Archivos de sistema operativo
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# Archivos de logs
+*.log
+logs/
+
+# Dependencias (si no usas Maven/Gradle para gestionarlas en el repo)
+lib/
+
+# Archivos de configuración locales sensibles (ej. API keys)
+*.properties.local
+*.env
